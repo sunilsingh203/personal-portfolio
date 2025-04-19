@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0F0F0F;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hero {
+    padding: 40px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00FF94;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #ccc;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00FF94;
+  }
+  
+  .btn {
+    background-color: #00FF94;
+    color: #0F0F0F;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00cc76;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .text {
+    max-width: 500px;
+  }
+  
+  .text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text .highlight {
+    color: #00FF94;
+  }
+  
+  .text p {
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .image img {
+    width: 350px;
+    border-radius: 20px;
+  }
+
+  .skills {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+  }
+  
+  .skills h2 {
+    margin-bottom: 20px;
+    color: #00FF94;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  
